@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Study Planner Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🧠 AI Study Planner</h1>
+
+<div class="card">
+
+<input id="subjects" placeholder="Subjects">
+<input id="examDate" type="date">
+<input id="hours" placeholder="Study hours per day">
+
+<select id="difficulty">
+<option>Easy</option>
+<option>Medium</option>
+<option>Hard</option>
+</select>
+
+<button onclick="generatePlan()">Generate AI Plan</button>
+
+</div>
+
+<div id="plan"></div>
+
+<script src="planner.js"></script>
+
+</body>
+</html>
